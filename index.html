@@ -57,9 +57,9 @@
       </div>
     </header>
 
-    <main class="w-full pt-20 bg-background min-h-screen" style="font-family: 'Plus Jakarta Sans', sans-serif;">
+    <main class="w-full pt-10 bg-background min-h-screen" style="font-family: 'Plus Jakarta Sans', sans-serif;">
       <div class="relative w-full overflow-hidden">
-        <div class="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[760px] h-[520px] bg-gradient-to-b from-secondary-container/20 via-primary-container/30 to-transparent blur-[120px] rounded-full"></div>
+        <div class="pointer-events-none absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[520px] bg-gradient-to-b from-secondary-container/20 via-primary-container/30 to-transparent blur-[120px] rounded-full"></div>
         <div class="pointer-events-none absolute top-[1100px] -left-48 w-[500px] h-[500px] bg-tertiary-container/35 blur-[140px] rounded-full"></div>
         <div class="pointer-events-none absolute top-[2400px] -right-32 w-[600px] h-[600px] bg-primary-container/25 blur-[150px] rounded-full"></div>
 
@@ -143,11 +143,11 @@
                 <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-primary-container text-primary font-label-code text-[11px] uppercase tracking-widest w-fit mb-space-xs">
                   Sobre Mim
                 </div>
-                <h2 class="font-bold text-on-surface leading-tight text-3xl sm:text-4xl lg:text-[50px] mb-0" style="font-family: 'Josefin Sans', sans-serif; line-height: 1.15;">
+                <h2 class="font-bold text-on-surface leading-tight text-3xl sm:text-4xl lg:text-[45px] mb-0" style="font-family: 'Josefin Sans', sans-serif; line-height: 1.0;">
                   Transformando <span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-tertiary to-tertiary-fixed">Dados</span> em <span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-tertiary to-tertiary-fixed">Decisões Estratégicas</span>
                 </h2>
               </div>
-              <div class="flex flex-col gap-space-xs text-xs sm:text-sm text-on-surface-variant leading-relaxed mb-space-xs">
+              <div class="flex flex-col gap-space-sm text-xs sm:text-sm text-on-surface-variant leading-relaxed mb-space-xs">
                 <p>Como entusiasta e profissional em transição para Dados e Business Intelligence, acredito que a verdadeira força dos dados está em revelar padrões invisíveis e direcionar ações práticas de negócio. Meu foco é transformar dados brutos em inteligência acionável através de ETL eficiente, modelagem dimensional e dashboards executivos intuitivos.</p>
                 <p>Com base analítica fundamentada em Análise e Desenvolvimento de Sistemas e experiência com apuração estatística rigorosa, desenvolvo soluções ponta a ponta que otimizam processos, respondem perguntas críticas de negócio e impulsionam tomadas de decisão ágeis e embasadas. Disponível para atuação presencial, híbrida ou 100% remota em qualquer região do Brasil.</p>
               </div>
@@ -537,10 +537,15 @@
               <div class="flex items-center justify-between gap-2 mb-space-md">
                 <span class="px-2.5 py-1 rounded-full bg-tertiary-container text-tertiary font-label-code text-xs font-semibold">#BusinessIntelligence</span>
               </div>
-              <h3 class="text-headline-sm font-headline-sm text-on-surface mb-space-sm leading-snug hover:text-secondary transition-colors" style="font-family: 'Josefin Sans', sans-serif;">
-                <a href="#"></a>
-              </h3>
+
               <p class="text-body-sm font-body-sm text-on-surface-variant mb-space-lg leading-relaxed flex-1">
+                <div class="rounded-xl overflow-hidden mb-space-md border border-surface-variant/20 aspect-video bg-surface-container-lowest">
+                 <img 
+                 src="assets/images/capa-artigo-1.jpg" 
+                alt="Capa do Projeto" 
+                class="w-full h-full object-cover hover:scale-105 transition-transform duration-500" 
+                />
+                </div>
                 (texto)
               </p>
               <div class="pt-space-md border-t border-surface-variant/40 flex items-center justify-between text-body-sm">
@@ -595,44 +600,48 @@
           </div>
         </section>
 
-        <!-- CONTATO -->
-        <section class="w-full mx-auto py-space-4xl border-t border-surface-variant/30 max-w-6xl px-6 md:px-12 lg:px-16 scroll-mt-28" id="contato">
-          <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-container/80 via-surface-container-low to-surface-container-lowest p-space-xl md:p-space-3xl shadow-2xl border border-surface-variant/30">
+<!-- CONTATO -->
+        <section class="w-full mx-auto py-8 border-t border-surface-variant/30 max-w-6xl px-6 md:px-12 lg:px-16 scroll-mt-28" id="contato">
+          <div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary-container/80 via-surface-container-low to-surface-container-lowest p-space-lg md:p-space-xl shadow-2xl border border-surface-variant/30">
             <div class="pointer-events-none absolute -right-20 -bottom-20 w-80 h-80 bg-secondary-container/20 blur-3xl rounded-full"></div>
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center relative z-10">
               <div class="lg:col-span-8 xl:col-span-8 flex flex-col">
-                <span class="inline-flex items-center gap-1.5 px-space-sm py-1 rounded-full bg-secondary-container/20 text-secondary font-label-code text-xs uppercase tracking-widest w-fit mb-space-xs">Disponibilidade Imediata</span>
-                <h2 class="text-2xl sm:text-3xl font-bold text-on-surface mb-space-sm leading-snug tracking-tight" style="font-family: 'Josefin Sans', sans-serif;">
+                <span class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-secondary-container/20 text-secondary font-label-code text-[11px] uppercase tracking-widest w-fit mb-2">Disponibilidade Imediata</span>
+                
+                <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-on-surface mb-2 leading-tight tracking-tight" style="font-family: 'Josefin Sans', sans-serif;">
                   Procurando um talento analítico focado em gerar <span class="text-transparent bg-clip-text bg-gradient-to-r from-secondary via-tertiary to-tertiary-fixed">valor</span> através de dados?
                 </h2>
-                <p class="text-body-md font-body-md text-on-surface-variant mb-space-lg max-w-2xl leading-relaxed">
+                
+                <p class="text-body-sm font-body text-on-surface-variant mb-4 max-w-2xl leading-relaxed">
                   Estou aberto a posições de Analista de Dados / BI Júnior ou Trainee. Vamos conversar sobre como posso colaborar com análises de alto impacto para sua equipe.
                 </p>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm w-full">
-                  <a class="flex items-center gap-3 p-space-md rounded-2xl bg-surface-container-lowest/80 hover:bg-surface-container-lowest transition-colors border border-surface-variant/20 group" href="mailto:pauloviniciusrsouza@gmail.com">
-                    <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-secondary shrink-0 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[20px]">mail</span></div>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 w-full">
+                  <a class="flex items-center gap-2.5 p-2.5 rounded-xl bg-surface-container-lowest/80 hover:bg-surface-container-lowest transition-colors border border-surface-variant/20 group" href="mailto:pauloviniciusrsouza@gmail.com">
+                    <div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-secondary shrink-0 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[18px]">mail</span></div>
                     <div class="flex flex-col min-w-0">
-                      <span class="text-[11px] text-on-surface-variant font-label-code uppercase tracking-wider">E-mail Direto</span>
-                      <span class="text-xs sm:text-[13px] font-medium text-on-surface hover:text-secondary transition-colors truncate">pauloviniciusrsouza@gmail.com</span>
+                      <span class="text-[9px] text-on-surface-variant font-label-code uppercase tracking-wider">E-mail Direto</span>
+                      <span class="text-xs font-medium text-on-surface hover:text-secondary transition-colors truncate">pauloviniciusrsouza@gmail.com</span>
                     </div>
                   </a>
-                  <a class="flex items-center gap-3 p-space-md rounded-2xl bg-surface-container-lowest/80 hover:bg-surface-container-lowest transition-colors border border-surface-variant/20 group" href="https://calendar.app.google/ek96FoQrnKQLVsG68" target="_blank" rel="noopener noreferrer">
-                    <div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-tertiary shrink-0 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[20px]">calendar_today</span></div>
+                  
+                  <a class="flex items-center gap-2.5 p-2.5 rounded-xl bg-surface-container-lowest/80 hover:bg-surface-container-lowest transition-colors border border-surface-variant/20 group" href="https://calendar.app.google/ek96FoQrnKQLVsG68" target="_blank" rel="noopener noreferrer">
+                    <div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-tertiary shrink-0 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[18px]">calendar_today</span></div>
                     <div class="flex flex-col min-w-0">
-                      <span class="text-[11px] text-on-surface-variant font-label-code uppercase tracking-wider">Bate-papo de 15 min</span>
-                      <span class="text-xs sm:text-[13px] font-medium text-on-surface group-hover:text-tertiary transition-colors flex items-center gap-1">Agendar no Google Calendar ↗</span>
+                      <span class="text-[9px] text-on-surface-variant font-label-code uppercase tracking-wider">Bate-papo de 15 min</span>
+                      <span class="text-xs font-medium text-on-surface group-hover:text-tertiary transition-colors flex items-center gap-1 truncate">Agendar no Google Calendar ↗</span>
                     </div>
                   </a>
                 </div>
               </div>
 
-              <div class="lg:col-span-4 xl:col-span-4 flex flex-col p-space-lg rounded-2xl bg-surface-container-lowest/90 shadow-xl border border-surface-variant/30">
-                <h4 class="text-headline-sm font-headline-sm text-on-surface mb-space-xs" style="font-family: 'Josefin Sans', sans-serif;">Currículo — Paulo Vinícius</h4>
-                <p class="text-body-sm font-body-sm text-on-surface-variant mb-space-md leading-relaxed">Consulte meu currículo atualizado abaixo.</p>
-                <a class="w-full inline-flex items-center justify-center gap-2 px-3 py-3 rounded-xl bg-gradient-to-r from-secondary to-tertiary text-on-secondary font-semibold text-xs tracking-wide shadow-[0_0_24px_rgba(71,214,255,0.3)] hover:shadow-[0_0_32px_rgba(71,214,255,0.5)] transition-all mb-space-sm whitespace-nowrap" href="Curriculo_PauloViniciusRSouza.pdf">
-                  Currículo em PDF ↗
+              <div class="lg:col-span-4 xl:col-span-4 flex flex-col p-space-md rounded-2xl bg-surface-container-lowest/90 shadow-xl border border-surface-variant/30">
+                <h4 class="text-base font-bold text-on-surface mb-1" style="font-family: 'Josefin Sans', sans-serif;">Download do CV em PDF</h4>
+                <p class="text-xs text-on-surface-variant mb-3 leading-relaxed">Acesse a versão completa e atualizada do meu currículo profissional.</p>
+                <a class="w-full inline-flex items-center justify-center gap-2 px-3 py-2.5 rounded-xl bg-gradient-to-r from-secondary to-tertiary text-on-secondary font-semibold text-xs tracking-wide shadow-[0_0_24px_rgba(71,214,255,0.3)] hover:shadow-[0_0_32px_rgba(71,214,255,0.5)] transition-all mb-2 whitespace-nowrap" href="Curriculo_PauloViniciusRSouza.pdf">
+                  Baixar Currículo em PDF ↗
                 </a>
-                <div class="flex items-center justify-between text-xs font-label-code text-on-surface-variant pt-space-xs border-t border-surface-variant/20">
+                <div class="flex items-center justify-between text-[11px] font-label-code text-on-surface-variant pt-2 border-t border-surface-variant/20">
                   <span class="flex items-center gap-1">
                     <span class="material-symbols-outlined text-xs text-secondary">verified_user</span> v2026.09 • 77.9 KB
                   </span>
@@ -644,16 +653,13 @@
       </div>
     </main>
 
-    <footer class="w-full bg-surface-container-lowest py-space-3xl mt-space-4xl border-t border-surface-variant/30">
-      <div class="mx-auto flex flex-col md:flex-row items-center justify-between gap-space-xl max-w-6xl px-6 md:px-12 lg:px-16">
-        <div class="flex flex-col items-center md:items-start gap-space-xs">
-          <div class="flex items-center gap-space-xs">
+    <footer class="w-full bg-surface-container-lowest py-6 mt-0 border-t border-surface-variant/30">
+      <div class="mx-auto flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl px-6 md:px-12 lg:px-16">
+        <div class="flex flex-col items-center md:items-start gap-1">
+          <div class="flex items-center gap-1">
             <span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Port<span class="text-tertiary">fólio</span></span>
-
           </div>
-          <p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">© 2026 Paulo Vinícius R. Souza</p>
-        </div>
-        
+          <p class="font-body-sm text-xs text-on-surface-variant text-center md:text-left">© 2026 Paulo Vinícius R. Souza</p>
         </div>
       </div>
     </footer>
@@ -671,4 +677,3 @@
     </script>
   </body>
 </html>
-
